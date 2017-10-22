@@ -4,17 +4,28 @@
   background-color: black;
 }
 .topo{
-  margin-top: 5%;
+  margin-top: -5%;
 }
 .appHeader{
-  margin: 0 auto;
-  width: 50vw;
+  margin: auto;
+  width: 45vw;
   display: flex;
   justify-content: space-between;
+  padding: 5%;
 }
 .appHeader>a{
+  font-family: Courier New, Courier, monospace;
+  font-size: 1.5em;
+  text-decoration: none;
+  border: 2px solid #FFDE00;
+  /*letter-spacing: 8px;*/
   float: left;
-  color: white;
+  color: #FFDE00;
   margin: 0 auto;
-
+  width: 21%;
+}
+.appHeader>a:hover{
+text-decoration: line-through #FFDE00;
+border: 2px solid black;
+color: #A4A4A4;
 }

@@ -8,10 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="appHeader">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Media</a>
-          <a href="#">Bandcamp</a>
+          <a href="#">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+          <a href="#">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
+          <a href="#">&nbsp;&nbsp;Media&nbsp;&nbsp;</a>
+          <a href="https://mt-mural.bandcamp.com/album/topograph-ep">&nbsp;&nbsp;Music&nbsp;&nbsp;</a>
         </div>
         <img className="topo" src={topo} width={"50%"} alt="none"/>
       </div>
