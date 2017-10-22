@@ -1,0 +1,20 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+}
+.topo{
+  margin-top: 5%;
+}
+.appHeader{
+  margin: 0 auto;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+.appHeader>a{
+  float: left;
+  color: white;
+  margin: 0 auto;
+
+}
